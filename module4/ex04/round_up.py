@@ -2,4 +2,8 @@
 
 num = float(input("Enter a number: "))
 
-result = int()
+result = int(num)
+
+result = result + result % 2
+
+print("Result: ", result)
